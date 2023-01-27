@@ -1,0 +1,40 @@
+server:
+  port: 9191
+
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+     gateway:
+      routes:
+        - id: ADDRESS-SERVICE
+          uri: lb://ADDRESS-SERVICE
+          predicates:
+            - Path=/address/**
+          filters:
+            - RewritePath=/address/(?<path>.*), /$\{path}
+          #  - AuthenticationFilter
+        - id: EMPLOYEE-SERVICE
+          uri: lb://EMPLOYEE-SERVICE
+          predicates:
+            - Path=/employee/**
+          filters:
+           - RewritePath=/employee/(?<path>.*), /$\{path}
+           #- AuthenticationFilter
+        - id: API-GATEWAY
+          uri: http://localhost:${server.port}
+          predicates:
+              - Path=/**
+          filters:
+              - RewritePath=/(?<path>/?.*), /$\{path}
+management:
+    endpoints:
+        web:
+            exposure:
+                include: prometheus
+
+jwt:
+  secret: testing
+  validity: 20
+  authDisabled: true
+

@@ -1,0 +1,21 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: EMPLOYEE-SERVICE
+  zipkin:
+    enabled: true
+    service.name: employee-service
+    sender.type: web
+    base-url: http://localhost:9411 
+   
+logging:
+  file:
+    name: C:/Users/ShiveshKumarSIDGloba/employee-address-project/log/employee_service.log
+
+management:
+    endpoints:
+        web:
+            exposure:
+                include: prometheus

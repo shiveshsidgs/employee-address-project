@@ -1,0 +1,961 @@
+2023-01-27 00:01:49.085  INFO [employee-service,,] 16692 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 00:02:34.850  INFO [employee-service,c69e62418bd55418,c69e62418bd55418] 16692 --- [http-nio-9003-exec-5] controller.EmployeeController            : Employee-Service getAllEmployees request : [{"employeeId":1,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":1,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":2,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":2,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":3,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":3,"streetNo":"abc","city":"xyz","state":"abc"}}]
+2023-01-27 00:06:49.110  INFO [employee-service,,] 16692 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 00:11:53.748  INFO [employee-service,,] 16692 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 00:16:53.765  INFO [employee-service,,] 16692 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 00:21:53.775  INFO [employee-service,,] 16692 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 00:25:52.800  INFO [employee-service,770eb2dbbd3d430e,770eb2dbbd3d430e] 16692 --- [http-nio-9003-exec-6] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 291 ms
+2023-01-27 00:26:38.322  INFO [employee-service,b46616acf1eb1018,b46616acf1eb1018] 16692 --- [http-nio-9003-exec-1] controller.EmployeeController            : Employee-Service getAllEmployees request : [{"employeeId":1,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":1,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":2,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":2,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":3,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":3,"streetNo":"abc","city":"xyz","state":"abc"}}]
+2023-01-27 00:26:53.780  INFO [employee-service,,] 16692 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 00:26:56.513  INFO [employee-service,b6511558d1025a73,b6511558d1025a73] 16692 --- [http-nio-9003-exec-6] controller.EmployeeController            : Employee-Service getAllEmployees request : [{"employeeId":1,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":1,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":2,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":2,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":3,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":3,"streetNo":"abc","city":"xyz","state":"abc"}}]
+2023-01-27 00:27:42.199  INFO [employee-service,99e06661e2be10ac,99e06661e2be10ac] 16692 --- [http-nio-9003-exec-4] controller.EmployeeController            : Employee-Service getAllEmployees request : [{"employeeId":1,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":1,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":2,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":2,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":3,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":3,"streetNo":"abc","city":"xyz","state":"abc"}}]
+2023-01-27 00:28:20.071  WARN [employee-service,09beaba8db2e6419,09beaba8db2e6419] 16692 --- [http-nio-9003-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-01-27 00:28:43.789  INFO [employee-service,8271aef7aee5f370,8271aef7aee5f370] 16692 --- [http-nio-9003-exec-5] controller.EmployeeController            : Employee-Service getAllEmployees request : [{"employeeId":1,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":1,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":2,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":2,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":3,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":3,"streetNo":"abc","city":"xyz","state":"abc"}}]
+2023-01-27 00:28:45.406  INFO [employee-service,24c7b92d405233e2,24c7b92d405233e2] 16692 --- [http-nio-9003-exec-6] controller.EmployeeController            : Employee-Service getAllEmployees request : [{"employeeId":1,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":1,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":2,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":2,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":3,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":3,"streetNo":"abc","city":"xyz","state":"abc"}}]
+2023-01-27 00:28:46.495  INFO [employee-service,de63068ad65fd7dc,de63068ad65fd7dc] 16692 --- [http-nio-9003-exec-7] controller.EmployeeController            : Employee-Service getAllEmployees request : [{"employeeId":1,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":1,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":2,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":2,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":3,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":3,"streetNo":"abc","city":"xyz","state":"abc"}}]
+2023-01-27 00:28:57.238  INFO [employee-service,0d60c8ac09369469,0d60c8ac09369469] 16692 --- [http-nio-9003-exec-9] controller.EmployeeController            : Employee-Service getAllEmployees request : [{"employeeId":1,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":1,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":2,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":2,"streetNo":"abc","city":"xyz","state":"abc"}},{"employeeId":3,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":3,"streetNo":"abc","city":"xyz","state":"abc"}}]
+2023-01-27 00:31:53.785  INFO [employee-service,,] 16692 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 00:36:53.788  INFO [employee-service,,] 16692 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 00:41:53.796  INFO [employee-service,,] 16692 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 00:46:53.805  INFO [employee-service,,] 16692 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 00:51:53.815  INFO [employee-service,,] 16692 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 00:56:53.821  INFO [employee-service,,] 16692 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 01:01:53.829  INFO [employee-service,,] 16692 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 01:05:30.610  INFO [employee-service,,] 16692 --- [Thread-7] o.s.c.s.a.z.ZipkinAutoConfiguration      : Flushing remaining spans on shutdown
+2023-01-27 01:05:30.615  INFO [employee-service,,] 16692 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EMPLOYEE-SERVICE with eureka with status DOWN
+2023-01-27 01:05:30.615  INFO [employee-service,,] 16692 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1674761730615, current=DOWN, previous=UP]
+2023-01-27 01:05:30.616  INFO [employee-service,,] 16692 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003: registering service...
+2023-01-27 01:05:30.633  INFO [employee-service,,] 16692 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on POST request for "http://localhost:8761/eureka/apps/EMPLOYEE-SERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/EMPLOYEE-SERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:791)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:717)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:608)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:782)
+	... 21 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:576)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:666)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 34 more
+
+2023-01-27 01:05:30.633  WARN [employee-service,,] 16692 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/EMPLOYEE-SERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-01-27 01:05:30.645  INFO [employee-service,,] 16692 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/EMPLOYEE-SERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/EMPLOYEE-SERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:791)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:717)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:608)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:782)
+	... 22 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:576)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:666)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 35 more
+
+2023-01-27 01:05:30.645  WARN [employee-service,,] 16692 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/EMPLOYEE-SERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-01-27 01:05:30.647  WARN [employee-service,,] 16692 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003 - registration failed Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.10.17.jar:1.10.17]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-01-27 01:05:30.647  WARN [employee-service,,] 16692 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.10.17.jar:1.10.17]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-01-27 01:05:30.676  INFO [employee-service,,] 16692 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-27 01:05:30.820 ERROR [employee-service,,] 16692 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Error thrown while acquiring connection from data source
+
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: The database is open in exclusive mode; can not open additional connections [90135-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:188) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.checkSuspended(SessionLocal.java:1240) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.transitionToState(SessionLocal.java:1232) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.waitIfExclusiveModeEnabled(SessionLocal.java:1480) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Command.executeQuery(Command.java:180) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:538) ~[h2-2.1.214.jar:2.1.214]
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:408) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[HikariCP-4.0.3.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-01-27 01:05:31.030  WARN [employee-service,,] 16692 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-01-27 01:05:31.491  INFO [employee-service,,] 16692 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-27 01:05:31.494  INFO [employee-service,,] 16692 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-27 01:05:31.495  INFO [employee-service,,] 16692 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-01-27 01:05:34.500  INFO [employee-service,,] 16692 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-01-27 01:05:34.508  INFO [employee-service,,] 16692 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:791)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:717)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:608)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:782)
+	... 38 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:576)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:666)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 51 more
+
+2023-01-27 01:05:34.508  WARN [employee-service,,] 16692 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-01-27 01:05:34.510 ERROR [employee-service,,] 16692 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003 - de-registration failedCannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972) ~[eureka-client-1.10.17.jar:1.10.17]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948) ~[eureka-client-1.10.17.jar:1.10.17]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390) ~[spring-cloud-context-3.1.5.jar:3.1.5]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136) ~[spring-cloud-context-3.1.5.jar:3.1.5]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106) ~[spring-context-5.3.24.jar:5.3.24]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075) ~[spring-context-5.3.24.jar:5.3.24]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174) ~[spring-boot-2.7.7.jar:2.7.7]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021) ~[spring-context-5.3.24.jar:5.3.24]
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145) ~[spring-boot-2.7.7.jar:2.7.7]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114) ~[spring-boot-2.7.7.jar:2.7.7]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-01-27 01:05:34.516  INFO [employee-service,,] 16692 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-01-27 11:20:30.829  INFO [employee-service,,] 18028 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:9296
+2023-01-27 11:20:31.672  INFO [employee-service,,] 18028 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=EMPLOYEE-SERVICE, profiles=[default], label=null, version=08ee20800266d7a3257b3f9348a79d969259c964, state=null
+2023-01-27 11:20:31.674  INFO [employee-service,,] 18028 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/shiveshsidgs/config-server/application.yml'}]
+2023-01-27 11:20:31.690  INFO [employee-service,,] 18028 --- [restartedMain] c.s.e.EmployeeServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-27 11:20:32.350  INFO [employee-service,,] 18028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-27 11:20:32.467  INFO [employee-service,,] 18028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interfaces.
+2023-01-27 11:20:33.652  INFO [employee-service,,] 18028 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1eee98e6-a1cd-3b42-9fd6-5cf75d6d9726
+2023-01-27 11:20:35.178  INFO [employee-service,,] 18028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9003 (http)
+2023-01-27 11:20:35.198  INFO [employee-service,,] 18028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27 11:20:35.199  INFO [employee-service,,] 18028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-27 11:20:35.377  INFO [employee-service,,] 18028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27 11:20:35.378  INFO [employee-service,,] 18028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3636 ms
+2023-01-27 11:20:35.840  INFO [employee-service,,] 18028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-27 11:20:36.143  INFO [employee-service,,] 18028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-27 11:20:36.164  INFO [employee-service,,] 18028 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-01-27 11:20:36.817  WARN [employee-service,,] 18028 --- [pool-1-thread-1] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2023-01-27 11:20:37.985  INFO [employee-service,,] 18028 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-27 11:20:38.047  INFO [employee-service,,] 18028 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-27 11:20:38.238  INFO [employee-service,,] 18028 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-27 11:20:38.333  INFO [employee-service,,] 18028 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-27 11:20:38.849  INFO [employee-service,,] 18028 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-27 11:20:38.854  INFO [employee-service,,] 18028 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-27 11:20:39.611  WARN [employee-service,,] 18028 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-27 11:20:39.705  WARN [employee-service,,] 18028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-01-27 11:20:39.765  INFO [employee-service,,] 18028 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'ADDRESS-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2023-01-27 11:20:41.239  INFO [employee-service,,] 18028 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-01-27 11:20:41.429  WARN [employee-service,,] 18028 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-27 11:20:41.512  INFO [employee-service,,] 18028 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2023-01-27 11:20:41.567  INFO [employee-service,,] 18028 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-01-27 11:20:41.725  INFO [employee-service,,] 18028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-01-27 11:20:41.731  INFO [employee-service,,] 18028 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 11:20:41.773  INFO [employee-service,,] 18028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-01-27 11:20:41.775  INFO [employee-service,,] 18028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-01-27 11:20:41.775  INFO [employee-service,,] 18028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-01-27 11:20:41.775  INFO [employee-service,,] 18028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-01-27 11:20:41.776  INFO [employee-service,,] 18028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-01-27 11:20:41.776  INFO [employee-service,,] 18028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-01-27 11:20:41.776  INFO [employee-service,,] 18028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-01-27 11:20:42.019  INFO [employee-service,,] 18028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-01-27 11:20:42.027  INFO [employee-service,,] 18028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-01-27 11:20:42.032  INFO [employee-service,,] 18028 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-01-27 11:20:42.039  INFO [employee-service,,] 18028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1674798642038 with initial instances count: 2
+2023-01-27 11:20:42.051  INFO [employee-service,,] 18028 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EMPLOYEE-SERVICE with eureka with status UP
+2023-01-27 11:20:42.052  INFO [employee-service,,] 18028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1674798642052, current=UP, previous=STARTING]
+2023-01-27 11:20:42.055  INFO [employee-service,,] 18028 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003: registering service...
+2023-01-27 11:20:42.084  INFO [employee-service,,] 18028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9003 (http) with context path ''
+2023-01-27 11:20:42.086  INFO [employee-service,,] 18028 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9003
+2023-01-27 11:20:42.109  INFO [employee-service,,] 18028 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003 - registration status: 204
+2023-01-27 11:20:42.185  INFO [employee-service,,] 18028 --- [restartedMain] c.s.e.EmployeeServiceApplication         : Started EmployeeServiceApplication in 12.431 seconds (JVM running for 13.074)
+2023-01-27 11:25:41.789  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 11:28:26.554  INFO [employee-service,3ee0a2ac000dab0e,3ee0a2ac000dab0e] 18028 --- [http-nio-9003-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27 11:28:26.555  INFO [employee-service,3ee0a2ac000dab0e,3ee0a2ac000dab0e] 18028 --- [http-nio-9003-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27 11:28:26.556  INFO [employee-service,3ee0a2ac000dab0e,3ee0a2ac000dab0e] 18028 --- [http-nio-9003-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27 11:28:27.637  WARN [employee-service,,] 18028 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2023-01-27 11:28:27.645  WARN [employee-service,,] 18028 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:791) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:67) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:666) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:51) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.lambda$new$0(RestTemplateSender.java:44) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender.post(HttpSender.java:137) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender$HttpPostCall.doExecute(HttpSender.java:150) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender$HttpPostCall.doExecute(HttpSender.java:140) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.2.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.3.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.3.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:279) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:384) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:406) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1308) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1241) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1127) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1056) ~[na:na]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:782) ~[spring-web-5.3.24.jar:5.3.24]
+	... 11 common frames omitted
+
+2023-01-27 11:30:41.791  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 11:31:04.776  INFO [employee-service,73437d4baa24b290,73437d4baa24b290] 18028 --- [http-nio-9003-exec-7] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":null,"streetNo":"abc","city":"xyz","state":"abc"}}
+2023-01-27 11:34:53.275  INFO [employee-service,bcf157e2521dc5ba,bcf157e2521dc5ba] 18028 --- [http-nio-9003-exec-9] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":null,"streetNo":"abc","city":"xyz","state":"abc"}}
+2023-01-27 11:34:55.405  INFO [employee-service,7d7a1bd6db9ab436,7d7a1bd6db9ab436] 18028 --- [http-nio-9003-exec-10] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":null,"streetNo":"abc","city":"xyz","state":"abc"}}
+2023-01-27 11:34:56.454  INFO [employee-service,6070ef82b7992989,6070ef82b7992989] 18028 --- [http-nio-9003-exec-1] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":null,"streetNo":"abc","city":"xyz","state":"abc"}}
+2023-01-27 11:35:41.805  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 11:36:03.145  INFO [employee-service,5fbefadf0c0885f5,5fbefadf0c0885f5] 18028 --- [http-nio-9003-exec-4] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":null,"streetNo":"abc","city":"xyz","state":"abc"}}
+2023-01-27 11:36:04.540  INFO [employee-service,81c53d4e45545a1f,81c53d4e45545a1f] 18028 --- [http-nio-9003-exec-3] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":null,"streetNo":"abc","city":"xyz","state":"abc"}}
+2023-01-27 11:36:05.539  INFO [employee-service,3e7766861eabc606,3e7766861eabc606] 18028 --- [http-nio-9003-exec-7] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":null,"streetNo":"abc","city":"xyz","state":"abc"}}
+2023-01-27 11:36:06.504  INFO [employee-service,11d51d52e8551501,11d51d52e8551501] 18028 --- [http-nio-9003-exec-6] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":null,"streetNo":"abc","city":"xyz","state":"abc"}}
+2023-01-27 11:40:41.811  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 11:45:41.820  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 11:50:41.829  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 11:55:41.845  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 12:00:41.846  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 12:05:41.860  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 12:10:41.875  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 12:15:41.886  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 12:20:41.899  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 12:25:41.911  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 12:30:41.929  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 12:34:37.065  INFO [employee-service,e9021825ea6f608a,e9021825ea6f608a] 18028 --- [http-nio-9003-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 381 ms
+2023-01-27 12:35:41.934  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 12:40:41.948  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 12:45:41.959  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 12:50:41.962  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 12:55:41.967  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 13:00:41.981  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 13:05:41.997  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 13:10:42.009  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 13:13:56.467  INFO [employee-service,47101ddf5e70e213,47101ddf5e70e213] 18028 --- [http-nio-9003-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 189 ms
+2023-01-27 13:15:42.022  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 13:21:18.866  WARN [employee-service,,] 18028 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m10s580ms826µs).
+2023-01-27 13:22:32.495  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 13:22:48.681  INFO [employee-service,1d1ad7d4660901e5,1d1ad7d4660901e5] 18028 --- [http-nio-9003-exec-5] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":null,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 13:27:32.505  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 13:32:32.509  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 13:37:32.524  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 13:42:32.530  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 13:47:32.536  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 13:52:32.551  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 13:57:32.568  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 14:02:32.573  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 14:07:32.579  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 14:12:32.596  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 14:30:48.855  WARN [employee-service,,] 18028 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m59s92ms434µs500ns).
+2023-01-27 14:31:01.688  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 14:36:01.702  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 14:41:18.529  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 14:41:35.867  WARN [employee-service,,] 18028 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s924ms63µs800ns).
+2023-01-27 14:46:18.545  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 14:51:18.560  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 14:56:18.577  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 15:01:18.589  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 15:06:18.593  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 15:11:18.594  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 15:16:18.597  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 15:23:40.575  WARN [employee-service,,] 18028 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m4s82ms988µs).
+2023-01-27 15:26:52.692  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 15:31:52.699  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 15:43:58.752  WARN [employee-service,,] 18028 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m48s14ms544µs).
+2023-01-27 15:47:10.716  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 15:52:10.723  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 15:57:10.728  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 16:02:10.731  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 16:07:10.741  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 16:17:26.619  WARN [employee-service,,] 18028 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m57s474ms470µs400ns).
+2023-01-27 16:17:38.212  INFO [employee-service,,] 18028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 16:18:36.014  INFO [employee-service,50f467a87ed19220,50f467a87ed19220] 18028 --- [http-nio-9003-exec-1] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":null,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 16:18:36.160  WARN [employee-service,50f467a87ed19220,50f467a87ed19220] 18028 --- [http-nio-9003-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90036, SQLState: 90036
+2023-01-27 16:18:36.161 ERROR [employee-service,50f467a87ed19220,50f467a87ed19220] 18028 --- [http-nio-9003-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+call next value for hibernate_sequence [90036-214]
+2023-01-27 16:18:36.402 ERROR [employee-service,50f467a87ed19220,50f467a87ed19220] 18028 --- [http-nio-9003-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [call next value for hibernate_sequence]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement] with root cause
+
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+call next value for hibernate_sequence [90036-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:632) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.readSequence(Parser.java:8471) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.readTermWithIdentifier(Parser.java:5347) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.readTermWithIdentifier(Parser.java:5217) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.readTerm(Parser.java:4901) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.readFactor(Parser.java:3398) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.readSum(Parser.java:3385) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.readConcat(Parser.java:3350) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.readCondition(Parser.java:3132) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.readExpression(Parser.java:3053) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.parseCall(Parser.java:6980) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.parsePrepared(Parser.java:765) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.parse(Parser.java:689) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.parse(Parser.java:661) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.prepareCommand(Parser.java:569) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:92) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288) ~[h2-2.1.214.jar:2.1.214]
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:337) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$1.doPrepare(StatementPreparerImpl.java:90) ~[hibernate-core-5.6.14.Final.jar:5.6.14.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176) ~[hibernate-core-5.6.14.Final.jar:5.6.14.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareStatement(StatementPreparerImpl.java:75) ~[hibernate-core-5.6.14.Final.jar:5.6.14.Final]
+	at org.hibernate.id.enhanced.SequenceStructure$1.getNextValue(SequenceStructure.java:105) ~[hibernate-core-5.6.14.Final.jar:5.6.14.Final]
+	at org.hibernate.id.enhanced.NoopOptimizer.generate(NoopOptimizer.java:40) ~[hibernate-core-5.6.14.Final.jar:5.6.14.Final]
+	at org.hibernate.id.enhanced.SequenceStyleGenerator.generate(SequenceStyleGenerator.java:534) ~[hibernate-core-5.6.14.Final.jar:5.6.14.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:114) ~[hibernate-core-5.6.14.Final.jar:5.6.14.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185) ~[hibernate-core-5.6.14.Final.jar:5.6.14.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128) ~[hibernate-core-5.6.14.Final.jar:5.6.14.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55) ~[hibernate-core-5.6.14.Final.jar:5.6.14.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-5.6.14.Final.jar:5.6.14.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:756) ~[hibernate-core-5.6.14.Final.jar:5.6.14.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:742) ~[hibernate-core-5.6.14.Final.jar:5.6.14.Final]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-5.3.24.jar:5.3.24]
+	at jdk.proxy4/jdk.proxy4.$Proxy194.persist(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.24.jar:5.3.24]
+	at jdk.proxy4/jdk.proxy4.$Proxy194.persist(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:666) ~[spring-data-jpa-2.7.6.jar:2.7.6]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.6.jar:2.7.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.24.jar:5.3.24]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.24.jar:5.3.24]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.7.6.jar:2.7.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.24.jar:5.3.24]
+	at jdk.proxy4/jdk.proxy4.$Proxy197.save(Unknown Source) ~[na:na]
+	at service.EmployeeServiceImpl.saveEmployee(EmployeeServiceImpl.java:26) ~[classes/:na]
+	at controller.EmployeeController.saveEmployee(EmployeeController.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696) ~[tomcat-embed-core-9.0.70.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.70.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.70.jar:9.0.70]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.springframework.cloud.sleuth.instrument.web.servlet.TracingFilter.doFilter(TracingFilter.java:68) ~[spring-cloud-sleuth-instrumentation-3.1.5.jar:3.1.5]
+	at org.springframework.cloud.sleuth.autoconfig.instrument.web.TraceWebServletConfiguration$LazyTracingFilter.doFilter(TraceWebServletConfiguration.java:131) ~[spring-cloud-sleuth-autoconfigure-3.1.5.jar:3.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.7.jar:2.7.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.springframework.cloud.sleuth.instrument.web.tomcat.TraceValve.invoke(TraceValve.java:103) ~[spring-cloud-sleuth-instrumentation-3.1.5.jar:3.1.5]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.70.jar:9.0.70]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-01-27 16:19:12.595  INFO [employee-service,,] 18028 --- [Thread-7] o.s.c.s.a.z.ZipkinAutoConfiguration      : Flushing remaining spans on shutdown
+2023-01-27 16:19:12.611  INFO [employee-service,,] 18028 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EMPLOYEE-SERVICE with eureka with status DOWN
+2023-01-27 16:19:12.612  INFO [employee-service,,] 18028 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1674816552611, current=DOWN, previous=UP]
+2023-01-27 16:19:12.613  INFO [employee-service,,] 18028 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003: registering service...
+2023-01-27 16:19:12.630  INFO [employee-service,,] 18028 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003 - registration status: 204
+2023-01-27 16:19:12.728  INFO [employee-service,,] 18028 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-27 16:19:13.018  WARN [employee-service,,] 18028 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-01-27 16:19:13.842  INFO [employee-service,,] 18028 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-27 16:19:13.852  INFO [employee-service,,] 18028 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-27 16:19:13.857  INFO [employee-service,,] 18028 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-01-27 16:19:16.867  WARN [employee-service,,] 18028 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2023-01-27 16:19:16.870  INFO [employee-service,,] 18028 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-01-27 16:19:16.879  INFO [employee-service,,] 18028 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003 - deregister  status: 200
+2023-01-27 16:19:16.886  INFO [employee-service,,] 18028 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-01-27 16:19:24.954  INFO [employee-service,,] 15276 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:9296
+2023-01-27 16:19:26.136  INFO [employee-service,,] 15276 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=EMPLOYEE-SERVICE, profiles=[default], label=null, version=08ee20800266d7a3257b3f9348a79d969259c964, state=null
+2023-01-27 16:19:26.139  INFO [employee-service,,] 15276 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/shiveshsidgs/config-server/application.yml'}]
+2023-01-27 16:19:26.183  INFO [employee-service,,] 15276 --- [restartedMain] c.s.e.EmployeeServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-27 16:19:27.244  INFO [employee-service,,] 15276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-27 16:19:27.451  INFO [employee-service,,] 15276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 191 ms. Found 1 JPA repository interfaces.
+2023-01-27 16:19:28.956  INFO [employee-service,,] 15276 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1eee98e6-a1cd-3b42-9fd6-5cf75d6d9726
+2023-01-27 16:19:31.526  INFO [employee-service,,] 15276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9003 (http)
+2023-01-27 16:19:31.555  INFO [employee-service,,] 15276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27 16:19:31.556  INFO [employee-service,,] 15276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-27 16:19:31.967  INFO [employee-service,,] 15276 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27 16:19:31.968  INFO [employee-service,,] 15276 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5696 ms
+2023-01-27 16:19:33.006  INFO [employee-service,,] 15276 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-27 16:19:33.550  INFO [employee-service,,] 15276 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-27 16:19:33.584  INFO [employee-service,,] 15276 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-01-27 16:19:34.864  WARN [employee-service,,] 15276 --- [pool-1-thread-1] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2023-01-27 16:19:37.157  INFO [employee-service,,] 15276 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-27 16:19:37.286  INFO [employee-service,,] 15276 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-27 16:19:37.710  INFO [employee-service,,] 15276 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-27 16:19:37.975  INFO [employee-service,,] 15276 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-27 16:19:39.308  INFO [employee-service,,] 15276 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-27 16:19:39.333  INFO [employee-service,,] 15276 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-27 16:19:40.813  WARN [employee-service,,] 15276 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-27 16:19:40.988  WARN [employee-service,,] 15276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-01-27 16:19:41.088  INFO [employee-service,,] 15276 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'ADDRESS-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2023-01-27 16:19:43.938  INFO [employee-service,,] 15276 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-01-27 16:19:44.474  WARN [employee-service,,] 15276 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-27 16:19:44.606  INFO [employee-service,,] 15276 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2023-01-27 16:19:44.719  INFO [employee-service,,] 15276 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-01-27 16:19:44.989  INFO [employee-service,,] 15276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-01-27 16:19:45.003  INFO [employee-service,,] 15276 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 16:19:45.076  INFO [employee-service,,] 15276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-01-27 16:19:45.076  INFO [employee-service,,] 15276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-01-27 16:19:45.077  INFO [employee-service,,] 15276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-01-27 16:19:45.077  INFO [employee-service,,] 15276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-01-27 16:19:45.078  INFO [employee-service,,] 15276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-01-27 16:19:45.078  INFO [employee-service,,] 15276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-01-27 16:19:45.079  INFO [employee-service,,] 15276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-01-27 16:19:45.714  INFO [employee-service,,] 15276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-01-27 16:19:45.722  INFO [employee-service,,] 15276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-01-27 16:19:45.735  INFO [employee-service,,] 15276 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-01-27 16:19:45.761  INFO [employee-service,,] 15276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1674816585756 with initial instances count: 2
+2023-01-27 16:19:45.789  INFO [employee-service,,] 15276 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EMPLOYEE-SERVICE with eureka with status UP
+2023-01-27 16:19:45.792  INFO [employee-service,,] 15276 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1674816585792, current=UP, previous=STARTING]
+2023-01-27 16:19:45.799  INFO [employee-service,,] 15276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003: registering service...
+2023-01-27 16:19:45.898  INFO [employee-service,,] 15276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9003 (http) with context path ''
+2023-01-27 16:19:45.900  INFO [employee-service,,] 15276 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9003
+2023-01-27 16:19:45.946  INFO [employee-service,,] 15276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003 - registration status: 204
+2023-01-27 16:19:46.161  INFO [employee-service,,] 15276 --- [restartedMain] c.s.e.EmployeeServiceApplication         : Started EmployeeServiceApplication in 23.625 seconds (JVM running for 24.974)
+2023-01-27 16:20:43.869  INFO [employee-service,92967aea886630af,92967aea886630af] 15276 --- [http-nio-9003-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27 16:20:43.870  INFO [employee-service,92967aea886630af,92967aea886630af] 15276 --- [http-nio-9003-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27 16:20:43.874  INFO [employee-service,92967aea886630af,92967aea886630af] 15276 --- [http-nio-9003-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-01-27 16:20:44.421  INFO [employee-service,92967aea886630af,92967aea886630af] 15276 --- [http-nio-9003-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 453 ms
+2023-01-27 16:20:45.579  WARN [employee-service,,] 15276 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2023-01-27 16:20:45.586  WARN [employee-service,,] 15276 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:791) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:67) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:666) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:51) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.lambda$new$0(RestTemplateSender.java:44) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender.post(HttpSender.java:137) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender$HttpPostCall.doExecute(HttpSender.java:150) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender$HttpPostCall.doExecute(HttpSender.java:140) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.2.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.3.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.3.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:279) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:384) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:406) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1308) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1241) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1127) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1056) ~[na:na]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:782) ~[spring-web-5.3.24.jar:5.3.24]
+	... 11 common frames omitted
+
+2023-01-27 16:21:40.452  INFO [employee-service,d6825b6a0f4fa507,d6825b6a0f4fa507] 15276 --- [http-nio-9003-exec-2] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":null,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 16:22:38.790  INFO [employee-service,6b9ac812a341f8a8,6b9ac812a341f8a8] 15276 --- [http-nio-9003-exec-6] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"abc","lastName":"xyz","salary":10000,"email":"abc","phoneNumber":9003,"address":{"id":null,"streetNo":"abc","city":"xyz","state":"abc"}}
+2023-01-27 16:23:15.595  INFO [employee-service,8063fba8af609def,8063fba8af609def] 15276 --- [http-nio-9003-exec-8] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":null,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 16:24:45.096  INFO [employee-service,,] 15276 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 16:26:01.913  INFO [employee-service,83c321d48f6fe1a6,83c321d48f6fe1a6] 15276 --- [http-nio-9003-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 141 ms
+2023-01-27 16:29:05.916  INFO [employee-service,,] 15276 --- [Thread-7] o.s.c.s.a.z.ZipkinAutoConfiguration      : Flushing remaining spans on shutdown
+2023-01-27 16:29:05.919  INFO [employee-service,,] 15276 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EMPLOYEE-SERVICE with eureka with status DOWN
+2023-01-27 16:29:05.920  INFO [employee-service,,] 15276 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1674817145920, current=DOWN, previous=UP]
+2023-01-27 16:29:05.921  INFO [employee-service,,] 15276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003: registering service...
+2023-01-27 16:29:05.926  INFO [employee-service,,] 15276 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003 - registration status: 204
+2023-01-27 16:29:05.964  INFO [employee-service,,] 15276 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-27 16:29:06.345  WARN [employee-service,,] 15276 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-01-27 16:29:06.743  INFO [employee-service,,] 15276 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-27 16:29:06.747  INFO [employee-service,,] 15276 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-27 16:29:06.748  INFO [employee-service,,] 15276 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-01-27 16:29:09.761  INFO [employee-service,,] 15276 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-01-27 16:29:09.768  INFO [employee-service,,] 15276 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003 - deregister  status: 200
+2023-01-27 16:29:09.776  INFO [employee-service,,] 15276 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-01-27 16:29:24.087  INFO [employee-service,,] 20280 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:9296
+2023-01-27 16:29:25.122  INFO [employee-service,,] 20280 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=EMPLOYEE-SERVICE, profiles=[default], label=null, version=08ee20800266d7a3257b3f9348a79d969259c964, state=null
+2023-01-27 16:29:25.124  INFO [employee-service,,] 20280 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/shiveshsidgs/config-server/application.yml'}]
+2023-01-27 16:29:25.148  INFO [employee-service,,] 20280 --- [restartedMain] c.s.e.EmployeeServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-27 16:29:26.413  INFO [employee-service,,] 20280 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-27 16:29:26.606  INFO [employee-service,,] 20280 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 184 ms. Found 1 JPA repository interfaces.
+2023-01-27 16:29:28.044  INFO [employee-service,,] 20280 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8de81c14-81f9-346b-ab22-f36c8ea1470e
+2023-01-27 16:29:29.581  INFO [employee-service,,] 20280 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9003 (http)
+2023-01-27 16:29:29.597  INFO [employee-service,,] 20280 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27 16:29:29.597  INFO [employee-service,,] 20280 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-27 16:29:29.851  INFO [employee-service,,] 20280 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27 16:29:29.852  INFO [employee-service,,] 20280 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4648 ms
+2023-01-27 16:29:30.683  INFO [employee-service,,] 20280 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-27 16:29:31.173  INFO [employee-service,,] 20280 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-27 16:29:31.201  INFO [employee-service,,] 20280 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-01-27 16:29:32.349  WARN [employee-service,,] 20280 --- [pool-1-thread-1] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2023-01-27 16:29:34.399  INFO [employee-service,,] 20280 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-27 16:29:34.545  INFO [employee-service,,] 20280 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-27 16:29:34.892  INFO [employee-service,,] 20280 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-27 16:29:35.193  INFO [employee-service,,] 20280 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-27 16:29:36.544  INFO [employee-service,,] 20280 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-27 16:29:36.565  INFO [employee-service,,] 20280 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-27 16:29:38.252  WARN [employee-service,,] 20280 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-27 16:29:38.444  WARN [employee-service,,] 20280 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-01-27 16:29:38.618  INFO [employee-service,,] 20280 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'ADDRESS-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2023-01-27 16:29:43.448  INFO [employee-service,,] 20280 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-01-27 16:29:44.159  WARN [employee-service,,] 20280 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-27 16:29:44.344  INFO [employee-service,,] 20280 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2023-01-27 16:29:44.471  INFO [employee-service,,] 20280 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-01-27 16:29:44.764  INFO [employee-service,,] 20280 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-01-27 16:29:44.777  INFO [employee-service,,] 20280 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 16:29:44.834  INFO [employee-service,,] 20280 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-01-27 16:29:44.835  INFO [employee-service,,] 20280 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-01-27 16:29:44.835  INFO [employee-service,,] 20280 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-01-27 16:29:44.835  INFO [employee-service,,] 20280 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-01-27 16:29:44.836  INFO [employee-service,,] 20280 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-01-27 16:29:44.836  INFO [employee-service,,] 20280 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-01-27 16:29:44.836  INFO [employee-service,,] 20280 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-01-27 16:29:45.400  INFO [employee-service,,] 20280 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-01-27 16:29:45.406  INFO [employee-service,,] 20280 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-01-27 16:29:45.414  INFO [employee-service,,] 20280 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-01-27 16:29:45.425  INFO [employee-service,,] 20280 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1674817185422 with initial instances count: 3
+2023-01-27 16:29:45.442  INFO [employee-service,,] 20280 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EMPLOYEE-SERVICE with eureka with status UP
+2023-01-27 16:29:45.444  INFO [employee-service,,] 20280 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1674817185444, current=UP, previous=STARTING]
+2023-01-27 16:29:45.448  INFO [employee-service,,] 20280 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003: registering service...
+2023-01-27 16:29:45.509  INFO [employee-service,,] 20280 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9003 (http) with context path ''
+2023-01-27 16:29:45.510  INFO [employee-service,,] 20280 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9003
+2023-01-27 16:29:45.542  INFO [employee-service,,] 20280 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003 - registration status: 204
+2023-01-27 16:29:45.795  INFO [employee-service,,] 20280 --- [restartedMain] c.s.e.EmployeeServiceApplication         : Started EmployeeServiceApplication in 23.246 seconds (JVM running for 23.917)
+2023-01-27 16:30:07.038  INFO [employee-service,,] 20280 --- [Thread-7] o.s.c.s.a.z.ZipkinAutoConfiguration      : Flushing remaining spans on shutdown
+2023-01-27 16:30:07.040  INFO [employee-service,,] 20280 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EMPLOYEE-SERVICE with eureka with status DOWN
+2023-01-27 16:30:07.042  INFO [employee-service,,] 20280 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1674817207042, current=DOWN, previous=UP]
+2023-01-27 16:30:07.042  INFO [employee-service,,] 20280 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003: registering service...
+2023-01-27 16:30:07.050  INFO [employee-service,,] 20280 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003 - registration status: 204
+2023-01-27 16:30:07.082  INFO [employee-service,,] 20280 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-27 16:30:07.261 ERROR [employee-service,,] 20280 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Error thrown while acquiring connection from data source
+
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: The database is open in exclusive mode; can not open additional connections [90135-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:188) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.checkSuspended(SessionLocal.java:1240) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.transitionToState(SessionLocal.java:1232) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.waitIfExclusiveModeEnabled(SessionLocal.java:1480) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Command.executeQuery(Command.java:180) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:538) ~[h2-2.1.214.jar:2.1.214]
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:408) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[HikariCP-4.0.3.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-01-27 16:30:07.469  WARN [employee-service,,] 20280 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-01-27 16:30:08.495  INFO [employee-service,,] 20280 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-27 16:30:08.499  INFO [employee-service,,] 20280 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-27 16:30:08.501  INFO [employee-service,,] 20280 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-01-27 16:30:11.511  INFO [employee-service,,] 20280 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-01-27 16:30:11.517  INFO [employee-service,,] 20280 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003 - deregister  status: 200
+2023-01-27 16:30:11.522  INFO [employee-service,,] 20280 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-01-27 16:30:25.863  INFO [employee-service,,] 11024 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:9296
+2023-01-27 16:30:26.983  INFO [employee-service,,] 11024 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=EMPLOYEE-SERVICE, profiles=[default], label=null, version=08ee20800266d7a3257b3f9348a79d969259c964, state=null
+2023-01-27 16:30:26.985  INFO [employee-service,,] 11024 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/shiveshsidgs/config-server/application.yml'}]
+2023-01-27 16:30:27.002  INFO [employee-service,,] 11024 --- [restartedMain] c.s.e.EmployeeServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-27 16:30:27.949  INFO [employee-service,,] 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-27 16:30:28.099  INFO [employee-service,,] 11024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 138 ms. Found 1 JPA repository interfaces.
+2023-01-27 16:30:29.606  INFO [employee-service,,] 11024 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1eee98e6-a1cd-3b42-9fd6-5cf75d6d9726
+2023-01-27 16:30:31.270  INFO [employee-service,,] 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9003 (http)
+2023-01-27 16:30:31.288  INFO [employee-service,,] 11024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-27 16:30:31.288  INFO [employee-service,,] 11024 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-27 16:30:31.476  INFO [employee-service,,] 11024 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-27 16:30:31.477  INFO [employee-service,,] 11024 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4416 ms
+2023-01-27 16:30:31.935  INFO [employee-service,,] 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-27 16:30:32.208  INFO [employee-service,,] 11024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-27 16:30:32.223  INFO [employee-service,,] 11024 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-01-27 16:30:32.863  WARN [employee-service,,] 11024 --- [pool-1-thread-1] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2023-01-27 16:30:34.191  INFO [employee-service,,] 11024 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-27 16:30:34.287  INFO [employee-service,,] 11024 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-27 16:30:34.507  INFO [employee-service,,] 11024 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-27 16:30:34.799  INFO [employee-service,,] 11024 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-27 16:30:35.865  INFO [employee-service,,] 11024 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-27 16:30:35.873  INFO [employee-service,,] 11024 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-27 16:30:36.596  WARN [employee-service,,] 11024 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-27 16:30:36.674  WARN [employee-service,,] 11024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-01-27 16:30:36.752  INFO [employee-service,,] 11024 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'ADDRESS-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2023-01-27 16:30:38.399  INFO [employee-service,,] 11024 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-01-27 16:30:38.653  WARN [employee-service,,] 11024 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-01-27 16:30:38.742  INFO [employee-service,,] 11024 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2023-01-27 16:30:38.800  INFO [employee-service,,] 11024 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-01-27 16:30:39.022  INFO [employee-service,,] 11024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-01-27 16:30:39.031  INFO [employee-service,,] 11024 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 16:30:39.092  INFO [employee-service,,] 11024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-01-27 16:30:39.093  INFO [employee-service,,] 11024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-01-27 16:30:39.093  INFO [employee-service,,] 11024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-01-27 16:30:39.093  INFO [employee-service,,] 11024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-01-27 16:30:39.094  INFO [employee-service,,] 11024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-01-27 16:30:39.094  INFO [employee-service,,] 11024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-01-27 16:30:39.094  INFO [employee-service,,] 11024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-01-27 16:30:39.452  INFO [employee-service,,] 11024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-01-27 16:30:39.460  INFO [employee-service,,] 11024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-01-27 16:30:39.466  INFO [employee-service,,] 11024 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-01-27 16:30:39.479  INFO [employee-service,,] 11024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1674817239477 with initial instances count: 3
+2023-01-27 16:30:39.494  INFO [employee-service,,] 11024 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EMPLOYEE-SERVICE with eureka with status UP
+2023-01-27 16:30:39.496  INFO [employee-service,,] 11024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1674817239495, current=UP, previous=STARTING]
+2023-01-27 16:30:39.498  INFO [employee-service,,] 11024 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003: registering service...
+2023-01-27 16:30:39.551  INFO [employee-service,,] 11024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9003 (http) with context path ''
+2023-01-27 16:30:39.552  INFO [employee-service,,] 11024 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9003
+2023-01-27 16:30:39.578  INFO [employee-service,,] 11024 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVICE/host.docker.internal:EMPLOYEE-SERVICE:9003 - registration status: 204
+2023-01-27 16:30:39.650  INFO [employee-service,,] 11024 --- [restartedMain] c.s.e.EmployeeServiceApplication         : Started EmployeeServiceApplication in 15.39 seconds (JVM running for 16.641)
+2023-01-27 16:32:36.071  INFO [employee-service,d972707280493a03,d972707280493a03] 11024 --- [http-nio-9003-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-27 16:32:36.071  INFO [employee-service,d972707280493a03,d972707280493a03] 11024 --- [http-nio-9003-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-27 16:32:36.073  INFO [employee-service,d972707280493a03,d972707280493a03] 11024 --- [http-nio-9003-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-27 16:32:36.408  INFO [employee-service,d972707280493a03,d972707280493a03] 11024 --- [http-nio-9003-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 291 ms
+2023-01-27 16:32:37.540  WARN [employee-service,,] 11024 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2023-01-27 16:32:37.545  WARN [employee-service,,] 11024 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:791) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:67) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:666) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:51) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.lambda$new$0(RestTemplateSender.java:44) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender.post(HttpSender.java:137) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender$HttpPostCall.doExecute(HttpSender.java:150) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender$HttpPostCall.doExecute(HttpSender.java:140) ~[spring-cloud-sleuth-zipkin-3.1.5.jar:3.1.5]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.2.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.3.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.3.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:279) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:384) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:406) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1308) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1241) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1127) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1056) ~[na:na]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:782) ~[spring-web-5.3.24.jar:5.3.24]
+	... 11 common frames omitted
+
+2023-01-27 16:35:39.110  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 16:40:39.121  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 16:45:39.132  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 16:50:39.153  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 16:55:39.160  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 17:00:39.172  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 17:05:39.188  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 17:10:39.199  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 17:15:39.213  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 17:20:39.227  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 17:25:39.230  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 17:30:39.231  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 17:35:39.244  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 17:40:39.255  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 17:45:39.264  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 17:50:39.272  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 17:55:39.282  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 18:00:39.287  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 18:03:46.981  INFO [employee-service,2ec90d59cbd194dc,2ec90d59cbd194dc] 11024 --- [http-nio-9003-exec-9] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":null,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 18:04:01.016  INFO [employee-service,c94eebc38827f073,c94eebc38827f073] 11024 --- [http-nio-9003-exec-2] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":null,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 18:05:39.287  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 18:09:00.496  INFO [employee-service,403c73dfbe875d44,403c73dfbe875d44] 11024 --- [http-nio-9003-exec-5] controller.EmployeeController            : Employee-Service getAllEmployees request : [{"employeeId":1,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":1,"streetNo":"string","city":"string","state":"string"}},{"employeeId":2,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":2,"streetNo":"string","city":"string","state":"string"}}]
+2023-01-27 18:09:29.614  INFO [employee-service,dc6a0c89592ca7d1,dc6a0c89592ca7d1] 11024 --- [http-nio-9003-exec-10] controller.EmployeeController            : Employee-Service getEmployeeById request : {"employeeId":1,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":1,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 18:09:32.060  INFO [employee-service,db948f38dc21c51d,db948f38dc21c51d] 11024 --- [http-nio-9003-exec-1] controller.EmployeeController            : Employee-Service getEmployeeById request : {"employeeId":1,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":1,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 18:10:00.349  INFO [employee-service,83f8be7bd9c3e437,83f8be7bd9c3e437] 11024 --- [http-nio-9003-exec-6] controller.EmployeeController            : Employee-Service deleteEmployee request : 2
+2023-01-27 18:10:00.396  INFO [employee-service,83f8be7bd9c3e437,83f8be7bd9c3e437] 11024 --- [http-nio-9003-exec-6] controller.EmployeeController            : Employee-Service deleteEmployee request after deleted: {"deleted":true}
+2023-01-27 18:10:14.104  INFO [employee-service,80c5ccb14b814781,80c5ccb14b814781] 11024 --- [http-nio-9003-exec-8] controller.EmployeeController            : Employee-Service getAllEmployees request : [{"employeeId":1,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":1,"streetNo":"string","city":"string","state":"string"}}]
+2023-01-27 18:10:39.292  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 18:12:01.248  INFO [employee-service,c8d81cc03cdea3c1,c8d81cc03cdea3c1] 11024 --- [http-nio-9003-exec-1] controller.EmployeeController            : Employee-Service getAllEmployees request : [{"employeeId":1,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":1,"streetNo":"string","city":"string","state":"string"}}]
+2023-01-27 18:12:02.026  INFO [employee-service,ee26eb35fcb90212,ee26eb35fcb90212] 11024 --- [http-nio-9003-exec-2] controller.EmployeeController            : Employee-Service getAllEmployees request : [{"employeeId":1,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":1,"streetNo":"string","city":"string","state":"string"}}]
+2023-01-27 18:12:02.339  INFO [employee-service,69dcfb285739f860,69dcfb285739f860] 11024 --- [http-nio-9003-exec-3] controller.EmployeeController            : Employee-Service getAllEmployees request : [{"employeeId":1,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":1,"streetNo":"string","city":"string","state":"string"}}]
+2023-01-27 18:12:02.555  INFO [employee-service,0574352a0a8d36eb,0574352a0a8d36eb] 11024 --- [http-nio-9003-exec-4] controller.EmployeeController            : Employee-Service getAllEmployees request : [{"employeeId":1,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":1,"streetNo":"string","city":"string","state":"string"}}]
+2023-01-27 18:12:33.357  INFO [employee-service,36fef0dc3c7e064f,36fef0dc3c7e064f] 11024 --- [http-nio-9003-exec-8] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":null,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 18:12:38.009  INFO [employee-service,921259dec725c8ee,921259dec725c8ee] 11024 --- [http-nio-9003-exec-10] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":null,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 18:12:39.031  INFO [employee-service,d6cb7e4a8ece25af,d6cb7e4a8ece25af] 11024 --- [http-nio-9003-exec-9] controller.EmployeeController            : Employee-Service updateAddress request : {"employeeId":null,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":null,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 18:13:40.774  INFO [employee-service,980cefcf75f0ad59,980cefcf75f0ad59] 11024 --- [http-nio-9003-exec-10] controller.EmployeeController            : Employee-Service getEmployeeById request : {"employeeId":1,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":1,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 18:13:41.393  INFO [employee-service,91064cf676dfafad,91064cf676dfafad] 11024 --- [http-nio-9003-exec-9] controller.EmployeeController            : Employee-Service getEmployeeById request : {"employeeId":1,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":1,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 18:13:41.549  INFO [employee-service,e14eee2995db8870,e14eee2995db8870] 11024 --- [http-nio-9003-exec-1] controller.EmployeeController            : Employee-Service getEmployeeById request : {"employeeId":1,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":1,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 18:13:41.706  INFO [employee-service,ab79fceb34a6b1dc,ab79fceb34a6b1dc] 11024 --- [http-nio-9003-exec-2] controller.EmployeeController            : Employee-Service getEmployeeById request : {"employeeId":1,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":1,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 18:13:41.924  INFO [employee-service,bba3edb8999e1d17,bba3edb8999e1d17] 11024 --- [http-nio-9003-exec-3] controller.EmployeeController            : Employee-Service getEmployeeById request : {"employeeId":1,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":1,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 18:14:01.400  WARN [employee-service,785cf44a058ed51a,785cf44a058ed51a] 11024 --- [http-nio-9003-exec-7] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [error.ResourceNotFoundException: Employee not found for this id :: 2]
+2023-01-27 18:14:02.484  WARN [employee-service,29f777e20163dfc0,29f777e20163dfc0] 11024 --- [http-nio-9003-exec-8] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [error.ResourceNotFoundException: Employee not found for this id :: 2]
+2023-01-27 18:14:02.698  WARN [employee-service,489f297dd4938baf,489f297dd4938baf] 11024 --- [http-nio-9003-exec-10] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [error.ResourceNotFoundException: Employee not found for this id :: 2]
+2023-01-27 18:14:10.582  INFO [employee-service,1498d8eb754e2cfb,1498d8eb754e2cfb] 11024 --- [http-nio-9003-exec-1] controller.EmployeeController            : Employee-Service getEmployeeById request : {"employeeId":1,"firstName":"string","lastName":"string","salary":0,"email":"string","phoneNumber":0,"address":{"id":1,"streetNo":"string","city":"string","state":"string"}}
+2023-01-27 18:15:39.303  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 18:20:39.308  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 18:25:39.319  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 18:30:39.324  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 18:35:39.341  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 18:40:39.355  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 18:45:39.361  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 18:50:39.371  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 18:55:39.372  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 19:00:39.387  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 19:05:39.402  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 19:11:45.591  WARN [employee-service,,] 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m10s702ms394µs700ns).
+2023-01-27 19:15:20.107  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 19:20:30.655  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 19:25:30.667  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-01-27 19:30:30.678  INFO [employee-service,,] 11024 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
